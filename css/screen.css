@@ -211,8 +211,8 @@ h1 {
 }
 
 p {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 0.36em; /* 1.799px; */
+  margin-bottom: 0.36em; /* 1.799px; */
   padding-top: 1em; /* 5px; */
   padding-bottom: 1em; /* 5px; */
 }
@@ -229,7 +229,7 @@ input[type=email] {
 
 input[type=submit] {
   font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
-  margin-top: 10px;
+  margin-top: 0.648em; /* 10px; */
   background-color: #CDCDCD;
 }
 
@@ -246,14 +246,14 @@ input[type=submit] {
   }
  
   form > fieldset {
-    width: 98%;
+    width: 99%;
     float: none;
   }
   
   input[type=email],
   input[type=text],
   input[type=date] {
-    width: 86%; 
+    width: 95%; 
   }
 }
 @media (min-width: 1200px) {
