@@ -199,9 +199,9 @@ html {
 }
 
 body {
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 5px;
+  margin-left: 1em; /* 5px; */
+  margin-right: 1em; /* 5px; */
+  padding: 1em; /* 5px; */
   font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
   background-color: #E8E8E8;
 }
