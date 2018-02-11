@@ -202,12 +202,12 @@ body {
   margin-left: 5px;
   margin-right: 5px;
   padding: 5px;
-  font-family: 'Alegreya', 'Abel', sans-serif;
+  font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
   background-color: #E8E8E8;
 }
 
 h1 {
-  font-family: 'Passion One', Arial, sans-serif;
+  font-family: 'Righteous', Arial, sans-serif;
 }
 
 p {
@@ -224,11 +224,11 @@ label {
 input[type=email] {
   border: none;
   background-color: #CDCDCD;
-  font-family: 'Alegreya', 'Abel', sans-serif;
+  font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
 }
 
 input[type=submit] {
-  font-family: 'Alegreya', 'Abel', sans-serif;
+  font-family: 'Archivo Narrow', 'Ubuntu Condensed', sans-serif;
   margin-top: 10px;
 }
 
