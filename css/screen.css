@@ -233,6 +233,36 @@ input[type=submit] {
   background-color: #CDCDCD;
 }
 
+/* Mobile first queries */
+@media (max-width: 480px) {
+  form {
+    margin: 0 0 5px 0;
+    width: 100%;
+  }
+  form > label,
+  legend {
+	  width: 100%;
+    float: none;
+  }
+ 
+  form > fieldset {
+    width: 98%;
+    float: none;
+  }
+  
+  input[type=email],
+  input[type=text],
+  input[type=date] {
+    width: 86%; 
+  }
+}
+@media (min-width: 1200px) {
+  form > label,
+	legend {
+  	text-align: right;
+  }
+}
+
 /* ===== LAYOUT STYLES ====== */
 
 /* ===== MODULAR STYLES ===== */
